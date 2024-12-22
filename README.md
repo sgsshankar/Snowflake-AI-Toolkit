@@ -64,6 +64,14 @@ Launch the application locally using:
    ```
 
 ### Natively on Snowflake
+To configure the application mode, update the `mode` parameter in `src/settings_config.json
+Set to `"native"` for running natively in Snowflake.
+
+Install snowflake-cli
+   ```bash
+      pip install snowflake-cli
+   ```
+
 
 To deploy the application natively in Snowflake, use the following command:
    ```bash
